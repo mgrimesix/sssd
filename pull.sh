@@ -6,7 +6,7 @@ wget http://deb.debian.org/debian/pool/main/s/sssd/sssd_$VERSION-$REVISION.debia
 tar xf sssd_$VERSION-$REVISION.debian.tar.xz
 rm sssd_$VERSION-$REVISION.debian.tar.xz
 
-wget http://deb.debian.org/debian/pool/main/s/sssd/sssd_$VERSION.orig.tar.xz
+wget http://deb.debian.org/debian/pool/main/s/sssd/sssd_$VERSION.orig.tar.gz
 tar xf sssd_$VERSION.orig.tar.xz --strip 1
 rm sssd_$VERSION.orig.tar.xz
 
