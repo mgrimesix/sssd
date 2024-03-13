@@ -7,8 +7,8 @@ tar xf sssd_$VERSION-$REVISION.debian.tar.xz
 rm sssd_$VERSION-$REVISION.debian.tar.xz
 
 wget http://deb.debian.org/debian/pool/main/s/sssd/sssd_$VERSION.orig.tar.gz
-tar xf sssd_$VERSION.orig.tar.xz --strip 1
-rm sssd_$VERSION.orig.tar.xz
+tar xf sssd_$VERSION.orig.tar.gz --strip 1
+rm sssd_$VERSION.orig.tar.gz
 
 # ------- specific to grub2 --------
 #rm debian/patches/efi-variable-storage-minimise-writes.patch
